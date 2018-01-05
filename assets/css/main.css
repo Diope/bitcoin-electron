@@ -19,6 +19,7 @@ body {
    display: grid;
    grid-template-columns: 35% auto 35%;
    align-items: center;
+   -webkit-app-region: drag;
 }
 
 .price-container {
@@ -55,4 +56,5 @@ button {
    padding: 1rem;
    margin-right: 3rem;
    cursor: pointer;
+   -webkit-app-region: no-drag;
 }

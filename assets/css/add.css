@@ -9,8 +9,9 @@ body {
 }
 
 p.notify {
-   background: #cc33cc;
+   background: #c3c3c3;
    margin: 0;
+   font-size: 1.6rem;
    padding: 2rem;
    text-transform: uppercase;
    -webkit-app-region: drag;
@@ -27,8 +28,12 @@ input {
    padding: 1.2rem;
 }
 
-.closeBtn {
+#closeBtn {
    cursor: pointer;
    padding: 2rem;
    text-decoration: underline;
+}
+
+btn {
+   -webkit-app-region: no-drag;
 }

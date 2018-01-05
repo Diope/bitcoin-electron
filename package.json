@@ -1,0 +1,14 @@
+{
+  "name": "bitcoin-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Dion Pettaway",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "1.7.10"
+  }
+}

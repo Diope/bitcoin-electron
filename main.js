@@ -1,6 +1,7 @@
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, Menu} = require('electron')
 const path = require('path')
 const url = require('url')
+const shell = require("electron").shell;
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -16,6 +17,39 @@ function createWindow () {
     protocol: 'file:',
     slashes: true
   }))
+
+  var menu = Menu.buildFromTemplate([
+      {
+         label: 'Menu',
+         submenu: [
+            {
+               label: "Adjust Notification Value"
+            },
+
+            {
+            label: "CoinMarketCap",
+               click(){
+                  shell.openExternal('http://coinmarketcap.com')
+               }
+            },
+
+            {type: "separator"},
+
+            {
+            label: "Exit",
+               click(){
+                  app.exit();
+               } 
+            }
+         ]
+      },
+      {
+         label: "Info",
+         submenu:[]
+      }
+  ])
+
+  Menu.setApplicationMenu(menu)
 
   // Open the DevTools.
   win.webContents.openDevTools()

@@ -26,6 +26,7 @@ p.notify {
 
 input {
    padding: 1.2rem;
+   font-size: 1.8rem;
 }
 
 #closeBtn {
@@ -33,6 +34,7 @@ input {
    padding: 2rem;
    text-decoration: underline;
 }
+
 
 btn {
    -webkit-app-region: no-drag;

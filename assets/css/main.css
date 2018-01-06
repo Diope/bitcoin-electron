@@ -27,10 +27,15 @@ body {
    background: #353535;
    padding: 0 1rem;
    text-align: center;
+   font-size: 1.6rem;
 }
 
 .goal-container {
    padding: 2rem;
+}
+
+.goal-container p {
+   font-size: 1.6rem;
 }
 
 .subtext {

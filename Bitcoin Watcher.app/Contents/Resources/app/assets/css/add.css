@@ -1,0 +1,41 @@
+html {
+   font-size: 62.5%;
+}
+
+body {
+   background: #dfdfdf;
+   color: #000000;
+   overflow: hidden;
+}
+
+p.notify {
+   background: #c3c3c3;
+   margin: 0;
+   font-size: 1.6rem;
+   padding: 2rem;
+   text-transform: uppercase;
+   -webkit-app-region: drag;
+}
+
+.row2 {
+   width: 100%;
+   display: grid;
+   grid-template-columns: auto auto;
+   padding: 2rem;
+}
+
+input {
+   padding: 1.2rem;
+   font-size: 1.8rem;
+}
+
+#closeBtn {
+   cursor: pointer;
+   padding: 2rem;
+   text-decoration: underline;
+}
+
+
+btn {
+   -webkit-app-region: no-drag;
+}

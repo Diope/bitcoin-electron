@@ -1,5 +1,6 @@
 {
   "name": "bitcoin-electron",
+  "productName": "Bitcoin Watcher",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -9,7 +10,7 @@
   "author": "Dion Pettaway",
   "license": "ISC",
   "devDependencies": {
-    "electron": "1.7.10"
+    "electron": "1.8.3"
   },
   "dependencies": {
     "axios": "0.17.1"
